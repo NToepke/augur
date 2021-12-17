@@ -40,7 +40,7 @@ Then, once you've connected to your PostgreSQL instance\:
 
 - For each platform, perform a command line login in order to cache Git credentials for the LINUX user who will be operating Augur. This step is required in order to prevent the Facade Commit Counting Diesel from stalling on a command line prompt when repositories move or disappear. 
 
-- Set up a Python virtual environment (Python 3.6 - 3.8 work. Python 3.9 is not fully tested due to machine learning dependency lag.) 
+- Set up a Python virtual environment. We highly recommend Python 3.8 at the moment. 
 - Clone and install Augur as a regular user. 
 
 .. code-block:: bash
