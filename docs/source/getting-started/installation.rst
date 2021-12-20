@@ -46,14 +46,17 @@ More than likely when you see that you must install Python 3, you simply go to t
 Ubuntu Python Command Line Installation
 Installation assumes you are using a sudo user  
 Install Required Dependencies
-- $ sudo apt update  
-- $ sudo apt install software-properties-common
+.. code-block:: bash
+    - $ sudo apt update  
+    - $ sudo apt install software-properties-common
 Install deadsnakes PPA
 deadsnakes PPA allows for multiple installs of python  
-- $ sudo add-apt-repository ppa:deadsnakes/ppa
+.. code-block:: bash
+    - $ sudo add-apt-repository ppa:deadsnakes/ppa
 #### Install python
-- $ sudo apt install python3.8  
-- (Or pythonX.X for your desired version)
+.. code-block:: bash
+    - $ sudo apt install python3.8  
+    - (Or pythonX.X for your desired version)
 
 Optional:
 
