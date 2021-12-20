@@ -40,7 +40,7 @@ Required:
 
 Our REST API & data collection workers are written in Python 3.6. We query the GitHub & GitLab API to collect data about issues, pull requests, contributors, and other information about a repository, so GitLab and GitHub access tokens are **required** for data collection.
 
-## Python version
+
 More than likely when you see that you must install Python 3, you simply go to their website and download the newest version. However, this program uses older versions as the newest version seldom allows for the use of machine learning. Therefore, if you run into issues with your system's Python, update your Python version to at least 3.8. Python can be downloaded [here](https://www.python.org/downloads/)
 
 ### Ubuntu Python Command Line Installation
