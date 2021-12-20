@@ -41,19 +41,19 @@ Required:
 Our REST API & data collection workers are written in Python 3.6. We query the GitHub & GitLab API to collect data about issues, pull requests, contributors, and other information about a repository, so GitLab and GitHub access tokens are **required** for data collection.
 
 
-More than likely when you see that you must install Python 3, you simply go to their website and download the newest version. However, this program uses older versions as the newest version seldom allows for the use of machine learning. Therefore, if you run into issues with your system's Python, update your Python version to at least 3.8. Python can be downloaded [here](https://www.python.org/downloads/)
+More than likely when you see that you must install Python 3, you simply go to their website and download the newest version. However, this program uses older versions as the newest version seldom allows for the use of machine learning. Therefore, if you run into issues with your system's Python, update your Python version to at least 3.8. Python can be downloaded here: https://www.python.org/downloads/
 
-### Ubuntu Python Command Line Installation
+Ubuntu Python Command Line Installation
 Installation assumes you are using a sudo user  
-#### Install Required Dependencies
-> $ sudo apt update  
-> $ sudo apt install software-properties-common
-#### Install deadsneakes PPA
+Install Required Dependencies
+- $ sudo apt update  
+- $ sudo apt install software-properties-common
+Install deadsnakes PPA
 deadsnakes PPA allows for multiple installs of python  
-> $ sudo add-apt-repository ppa:deadsnakes/ppa
+- $ sudo add-apt-repository ppa:deadsnakes/ppa
 #### Install python
-> $ sudo apt install python3.8  
-> (Or pythonX.X for your desired version)
+- $ sudo apt install python3.8  
+- (Or pythonX.X for your desired version)
 
 Optional:
 
